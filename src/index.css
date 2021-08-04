@@ -2,7 +2,7 @@ body {
   display: inline-block;
   border: 5px solid rgba(0, 0, 0, 0.445);
   width: 50%;
-  height: 25em;
+  height:max-content;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1rem;
   font-weight: bold;
@@ -11,6 +11,7 @@ body {
   padding: 15px;
 }
 input[type="text"] {
+  background-color: rgba(137, 43, 226, 0.692);
   padding: 25px;
   border: 2px solid rgba(0, 0, 0, 0.212);
   width: 80%;
@@ -19,8 +20,23 @@ input[type="text"] {
 .btn {
   border: 5x;
   border-radius: 5px;
-  background-color: rgba(0, 0, 255, 0.26);
+  background-color: rgba(255, 217, 0, 0.26);
   margin: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+.taskList{
+  background-color: rgb(80, 136, 138);
+  margin: 10px auto;
+  height: 35px;
+  border-radius: 5px;
+  color:#ffff;
+}
+.taskList p{
+  padding: 10px;
+  position: relative;
+}
+.taskList p span{
+  position: absolute;
+  right: 10px;
 }
